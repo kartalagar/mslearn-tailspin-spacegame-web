@@ -6,10 +6,10 @@
 trigger:
 - main
 
-pool:
+pool: KartalPC
 #  vmImage: 'windows-latest'
 #  vmImage: 'KartalPC'
-  vmImage: 'NB-KSAGAR'
+#  vmImage: 'NB-KSAGAR'
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
