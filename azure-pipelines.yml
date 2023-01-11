@@ -10,7 +10,7 @@ trigger:
 #  vmImage: 'windows-latest'
 
 pool:
-  name: KartalPC
+  name: LinuxAgent
 
 variables:
   solution: '**/*.sln'
