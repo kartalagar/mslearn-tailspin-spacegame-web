@@ -11,8 +11,8 @@ trigger:
 
 pool:
   name: "KartalPC"
-  demands:
-  - agent.name -equals NB-KSAGAR
+#  demands:
+#  - agent.name -equals NB-KSAGAR
 
 
 variables:
