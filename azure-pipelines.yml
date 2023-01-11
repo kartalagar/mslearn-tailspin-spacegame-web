@@ -10,7 +10,10 @@ trigger:
 #  vmImage: 'windows-latest'
 
 pool:
-  name: "KartalPC"
+  name: KartalPC
+  demands:
+  - agent.name -equals NB-KSAGAR
+
 
 variables:
   solution: '**/*.sln'
