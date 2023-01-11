@@ -12,7 +12,6 @@ trigger:
 pool:
   name: "KartalPC"
 
-
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
