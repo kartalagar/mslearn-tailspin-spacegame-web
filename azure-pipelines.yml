@@ -10,7 +10,7 @@ trigger:
 #  vmImage: 'windows-latest'
 
 pool:
-  name: LinuxAgent
+  name: WindowsAgent
 
 variables:
   solution: '**/*.sln'
